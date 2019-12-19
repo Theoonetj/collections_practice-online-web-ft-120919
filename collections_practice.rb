@@ -8,13 +8,13 @@ end
 
 #sort_array_desc method
 def sort_array_desc (array)
-  array.sort {|a,b| a <=> b }
+  array.sort {|a,y| y <=> x }
 end
 
 #sort_array_char_count method
 def sort_array_char_count(array)
-  array.sort do |left, right|
-    left.length <=> right.length
+  array.sort do |num1, num2|
+    num1.length <=> num2.length
   end
 end
 

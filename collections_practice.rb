@@ -13,8 +13,8 @@ end
 
 #sort_array_char_count method
 def sort_array_char_count(array)
-  array.sort do |num1, num2|
-    num1.length <=> num2.length
+  array.sort do |left, right|
+    left.length <=> right.length
   end
 end
 

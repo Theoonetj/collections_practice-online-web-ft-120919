@@ -1,3 +1,5 @@
+
+
 #sort_array_asc method
 def sort_array_asc(array)
   
@@ -6,7 +8,7 @@ end
 
 #sort_array_desc method
 def sort_array_desc (array)
-  array.sort {|x,y| y <=> x }
+  array.sort {|a,b| a <=> b }
 end
 
 #sort_array_char_count method
